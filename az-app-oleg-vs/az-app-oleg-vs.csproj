@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>az_app_oleg_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/efd6b0b0-5242-445b-8b6e-af6b575e0091/resourceGroups/az-group-rg/providers/microsoft.insights/components/az-app-oleg-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>c045aa77-2b52-4a4d-81bf-59d58ada8027</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>
